@@ -372,14 +372,20 @@ h3 {
 
 .video-card
 {
-    flex: 1;
-    min-width: 360px;
+    display: flex;
+    flex-direction: column;
 }
 
 .video-card h3
 {
     min-height: 80px;
 }
+
+.video-card p
+{
+    margin-bottom: 16px;
+}
+
 .video-card iframe
 {
     width: 100%;
